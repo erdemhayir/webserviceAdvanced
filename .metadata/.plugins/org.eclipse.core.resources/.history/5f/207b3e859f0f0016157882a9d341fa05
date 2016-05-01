@@ -1,0 +1,22 @@
+package org.erdem.advanced.rest;
+
+import javax.inject.Singleton;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+@Path("test")
+
+public class MyResource {
+	@PathParam("pathParam") private String pathParamValue;
+	@QueryParam("query") private String queryParamValue;
+	
+	@GET
+	@Produces(MediaType.TEXT_PLAIN)
+	public String testMethod(){
+		
+		return "it works. This method called "+count+" time(s)";
+	}
+}

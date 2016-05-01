@@ -1,0 +1,5 @@
+package org.erdem.advanced.rest;
+
+public class MyRestApi {
+
+}

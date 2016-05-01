@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+D:\GitHub\webserviceAdvanced\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1477250432.index
+\advanced-jaxrs-01web\src\main\resources
+D:\GitHub\webserviceAdvanced\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4154736714.index
+\advanced-jaxrs-02web\src\main\java
